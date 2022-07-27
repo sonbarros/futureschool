@@ -3,9 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Curso;
-use App\Modulo;
-use App\Aula;
+use App\Models\Curso;
+use App\Models\Modulo;
+use App\Models\Aula;
 
 class CursoController extends Controller
 {
