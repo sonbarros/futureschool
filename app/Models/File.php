@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use App\Models\Aula;
+use App\Models\Icon;
 
 class File extends Model
 {   
@@ -18,4 +19,11 @@ class File extends Model
     {
         return $this->belongsTo(Aula::class);
     }
+
+    public function icon()
+    {
+        return $this->belongsTo(Icon::class)->withDefault();
+    }
+
+
 }

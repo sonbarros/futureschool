@@ -21,7 +21,7 @@
     <div class="w-full px-4 lg:px-8 flex items-center justify-between">
       <a href="/" class="inline-flex items-center justify-center sm:justify-start space-x-3 nuxt-link-exact-active nuxt-link-active w-full">
         <img src="{{asset('_img/future-logo.png')}}" class="logo object-fill w-44 md:w-48"> 
-        <span class="hidden md:inline-flex items-center font-medium rounded-full bg-blue-700 text-gray-50 px-2.5 py-0.5 text-xs">
+        <span class="hidden md:inline-flex items-center font-medium rounded-full bg-yellow-500 text-gray-50 px-2.5 py-0.5 text-xs">
           BETA
         </span>
       </a> 

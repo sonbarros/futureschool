@@ -17,7 +17,8 @@ class CreateFilesTable extends Migration
             $table->id();
             $table->foreignId('aula_id')->constrained();
             $table->string('description')->nullable();
-            $table->string('ico_url')->nullable();
+            $table->string('url')->nullable();
+            $table->foreignId('icon_id')->nullable()->constrained();
         });
     }
 
