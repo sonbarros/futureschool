@@ -15,26 +15,6 @@
         </svg>
       </div> 
 
-      {{-- 
-      <ul class="space-y-2 mt-2 sm:mt-0 w-full sm:w-52">
-        @foreach($aula->files as $file)
-          <li>
-            <button class="inline-flex h-12 items-center justify-between border-0 w-full focus:outline-none transition ease-in-out duration-150 text-white bg-white hover:bg-gray-100 border-white hover:border-gray-100 text-xs px-2.5  rounded">
-              <span class="font-light text-brand">{{$file->description}}</span>
-              <div class="flex items-center sm:justify-end justify-between w-16" style="">
-                <svg  xmlns="http://www.w3.org/2000/svg" class="inline-block sm:hidden h-5 w-5 text-gray-400" viewBox="0 0 20 20" fill="currentColor">
-                  <path fill-rule="evenodd" d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zm3.293-7.707a1 1 0 011.414 0L9 10.586V3a1 1 0 112 0v7.586l1.293-1.293a1 1 0 111.414 1.414l-3 3a1 1 0 01-1.414 0l-3-3a1 1 0 010-1.414z" clip-rule="evenodd" />
-                </svg>
-                <img 
-                @if($file->icon->url == '_img/media-player.webp') class="w-10" @else  class="w-6 mr-2" @endif
-                src="{{asset( $file->icon->url )}}" alt="">
-              </div>
-            </button>
-          </li>
-        @endforeach
-      </ul>
-      --}}
-
       <div class="font-medium text-gray-800"><!---->
           <p>1. Baixe o programa e os arquivos que possuem as instruções de como acessar o Mainframe.</p>
           <ul class="w-full sm:w-80 rounded-md py-2 space-y-2 sm:space-y-1.5">
