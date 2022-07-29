@@ -7,10 +7,11 @@ use App\Models\Aula;
 use App\Models\Modulo;
 use App\Models\InfoTag;
 use App\Models\Traits\InfoTagCreate;
+use App\Models\Traits\CalcOfHours;
 
 class Curso extends Model
 {   
-    use InfoTagCreate;
+    use InfoTagCreate, CalcOfHours;
 
     protected $fillable = [
         'name'
@@ -31,6 +32,9 @@ class Curso extends Model
         return $this->hasMany(InfoTag::class);
     }
 
-    
+    public function setHoursClasses($hora, $min)
+    {   
+        $this->hours_classes = $hora + $this->minutesToHours($min);
+    }
 
 }

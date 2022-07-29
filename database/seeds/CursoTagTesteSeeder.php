@@ -12,15 +12,34 @@ class CursoTagTesteSeeder extends Seeder
      */
     public function run()
     {
+        
+        $str = null;
+
+        if(isset($str)) {
+            dd('entrou');
+        }
+
+        dd('não entrou');
         /**
          * Quando Criar Quantidade de aulas ou atualizar 
          * é necessario criar ou atualizar a infoTag
          */
         //$cursos = Curso::all();
 
-        $curso = Curso::where('name', 'tso')->first();
-        $curso->number_classes = 50;
-        $curso->save();
+        //$horas = .5;
+
+        //$horaInteger = (int) $horas;
+        //dd($horaInteger);
+
+        //$curso = Curso::where('name','TSO')->first();
+        //$curso->setHoursClasses(0, 0);
+        //dd($curso);
+        //$curso->save();
+
+
+        //$curso = Curso::where('name', 'tso')->first();
+        //$curso->number_classes = 0;
+        //$curso->save();
         //dd($cursos);
         //Curso::create(['name'=>'Cobol Teste', 'number_classes'=> 1]); // deu certo
         //$curso = new Curso();

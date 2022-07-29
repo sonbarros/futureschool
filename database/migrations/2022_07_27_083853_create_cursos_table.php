@@ -18,8 +18,8 @@ class CreateCursosTable extends Migration
             $table->timestamps();
             $table->string('name');
             $table->string('description')->nullable();
-            $table->integer('number_classes')->default(0);
-            $table->integer('hours_classes')->default(0);
+            $table->integer('number_classes')->nullable();
+            $table->decimal('hours_classes', 8, 2)->nullable();
         });
     }
 
