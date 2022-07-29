@@ -6,12 +6,11 @@ use Illuminate\Database\Eloquent\Model;
 use App\Models\Aula;
 use App\Models\Modulo;
 use App\Models\InfoTag;
-use App\Models\Traits\InfoTagCreate;
-use App\Models\Traits\CalcOfHours;
+use App\Models\Traits\SetNullForZero;
 
 class Curso extends Model
 {   
-    use InfoTagCreate, CalcOfHours;
+    use SetNullForZero;
 
     protected $fillable = [
         'name'
@@ -34,7 +33,7 @@ class Curso extends Model
 
     public function setHoursClasses($hora, $min)
     {   
-        $this->hours_classes = $hora + $this->minutesToHours($min);
+        $this->hours_classes = $hora + minutesToHours($min);
     }
 
 }

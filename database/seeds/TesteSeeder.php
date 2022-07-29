@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use App\Models\Curso;
 
-class CursoTagTesteSeeder extends Seeder
+class TesteSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,13 +13,6 @@ class CursoTagTesteSeeder extends Seeder
     public function run()
     {
         
-        $str = null;
-
-        if(isset($str)) {
-            dd('entrou');
-        }
-
-        dd('não entrou');
         /**
          * Quando Criar Quantidade de aulas ou atualizar 
          * é necessario criar ou atualizar a infoTag
@@ -31,21 +24,20 @@ class CursoTagTesteSeeder extends Seeder
         //$horaInteger = (int) $horas;
         //dd($horaInteger);
 
-        //$curso = Curso::where('name','TSO')->first();
-        //$curso->setHoursClasses(0, 0);
+        $curso = Curso::where('name','TSO')->first();
+        $curso->setHoursClasses(1, 1);
         //dd($curso);
-        //$curso->save();
+        $curso->save();
 
 
         //$curso = Curso::where('name', 'tso')->first();
-        //$curso->number_classes = 0;
-        //$curso->save();
-        //dd($cursos);
+        $curso->number_classes = 0;
+        
         //Curso::create(['name'=>'Cobol Teste', 'number_classes'=> 1]); // deu certo
         //$curso = new Curso();
         //$curso->name = "DB2";
-        //$curso->save();
-
+        $curso->save();
+        dd($curso);
         //$curso = Curso::find(1);
         //$curso->name = 'DB2';
         //$curso->save();

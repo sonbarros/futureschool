@@ -1,10 +1,12 @@
 <?php
 
+namespace App\database\seeds\future;
+
 use Illuminate\Database\Seeder;
 use App\Models\Curso;
 use App\Models\Icon;
 
-class CursoTSOSeeder extends Seeder
+class TSOCursoSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -32,9 +34,12 @@ class CursoTSOSeeder extends Seeder
         ]);
         
         $cursoTSO = Curso::create([
-            'name' => 'TSO'
+            'name' => 'TSO',
+            'number_classes' => 4
         ]);
-
+        $cursoTSO->setHoursClasses(0, 40);
+        $cursoTSO->save();
+        
         // ... module
         $moduloOne = $cursoTSO->modulos()->create();
 
@@ -182,5 +187,7 @@ class CursoTSOSeeder extends Seeder
             $file->icon()->associate($mediaIcon);
             $file->save();
         }
+
+        // 
     }
 }
