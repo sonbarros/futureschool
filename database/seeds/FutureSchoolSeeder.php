@@ -3,6 +3,7 @@
 use Illuminate\Database\Seeder;
 use App\database\seeds\future\TSOCursoSeeder;
 use App\database\seeds\future\JCLCursoSeeder;
+use App\database\seeds\future\CobolCursoSeeder;
 
 class FutureSchoolSeeder extends Seeder
 {
@@ -16,7 +17,8 @@ class FutureSchoolSeeder extends Seeder
         
         $this->call([
             TSOCursoSeeder::class,
-            JCLCursoSeeder::class
+            JCLCursoSeeder::class,
+            CobolCursoSeeder::class
         ]);
 
     }

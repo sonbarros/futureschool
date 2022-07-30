@@ -9,11 +9,11 @@
       <div class="flex-grow"  >
         <div class="h-full"><!----> 
           <div class="yt-container h-full flex items-center justify-center sm:items-start sm:justify-start">
-            <img class="object-cover -mt-1.5" src="{{asset("storage/_img/tso.png")}}" alt="">
+            <img class="object-cover -mt-1.5" src="{{asset("storage/_img/cobol.png")}}" alt="">
             {{-- <iframe src="https://www.youtube.com/embed/1eLaBow7Zbo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe> --}}
           </div>
         </div>
-      </div>
+      </div> 
       <div class="flex flex-col w-full md:w-2/5">
         <div class="space-y-3">
           <h1 class="font-bold text-2xl text-gray-900 leading-7">
@@ -40,8 +40,8 @@
             @endisset
           </div> 
           <div class="text-gray-600 space-y-3">
-            <p>Neste curso você aprenderá utilizar <span class="inline-block">(na prática)</span> o TSO como ferramenta de trabalho.</p>
-            <p>Iŕa escrever programas compila-los, executálos e verificar a existência de erros no spool.</p>
+            <p>Neste curso você aprenderá <span class="inline-block">(na prática)</span> lógica de programação para construir programas em COBOL Batch</p>
+            <p>Irá utilizar arquivos sequenciais, relatórios, compilando e executando esses programas.</p>
             <p class="invisible">Vamos também construir uma página completa e responsiva simulando uma agência de hotéis e resorts.</p>
           </div>
         </div> 
