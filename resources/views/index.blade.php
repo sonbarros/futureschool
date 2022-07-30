@@ -303,7 +303,7 @@
   <div class="mx-auto">
     <footer class="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-800">
       <div class="sm:flex sm:items-center sm:justify-between">
-        <a href="#" target="_blank" class="flex items-center justify-center mb-4 sm:mb-0">
+        <a href="{{route('site.index')}}" target="_blank" class="flex items-center justify-center mb-4 sm:mb-0">
           <img src="{{asset('storage/_img/future-logo.png')}}" class="logo object-fill w-44 md:w-48"> 
         </a>
         <div class="flex flex-col sm:flex-row sm:space-x-4 sm:items-center">
