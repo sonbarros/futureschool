@@ -17,7 +17,7 @@ class TSOCursoSeeder extends Seeder
     {   
         $wordIcon = Icon::create([
             'name'=>'word',
-            'url'=>'storage/_img/icon-word.webp'
+            'url'=>'storage/_img/ico-word.webp'
         ]);
         $mediaIcon = Icon::create([
             'name'=>'media-player',
@@ -25,7 +25,7 @@ class TSOCursoSeeder extends Seeder
         ]);
         $pdfIcon = Icon::create([
             'name'=>'pdf',
-            'url'=>'storage/_img/icon-pdf.png'
+            'url'=>'storage/_img/ico-pdf.png'
         ]);
 
         $tn3270 = Icon::create([

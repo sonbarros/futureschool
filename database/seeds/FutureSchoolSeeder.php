@@ -27,7 +27,7 @@ class FutureSchoolSeeder extends Seeder
             CICSCursoSeeder::class,
             DB2CursoSeeder::class,
             MainframeCursoSeeder::class,
-            //ApplyUrlInFile::class
+            ApplyUrlInFile::class
         ]);
 
     }

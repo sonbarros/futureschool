@@ -20,7 +20,7 @@ class CobolCursoSeeder extends Seeder
         ]); // Criando curso
 
         $curso->setHoursClasses(0, 40);
-        $curso->number_classes = 4;
+        $curso->number_classes = 3;
         $curso->save();
 
         $aula1 = $curso->aulas()->create([
@@ -173,13 +173,6 @@ class CobolCursoSeeder extends Seeder
 
         $file7_aula3->icon()->associate(Icon::find(2));
         $file7_aula3->save();
-
-        $file8_aula3 = $aula3->files()->create([
-            'description'=>'Exercício 4'
-        ]); // anexando arquivo
-
-        $file8_aula3->icon()->associate(Icon::find(2));
-        $file8_aula3->save();
 
         $file8_aula3 = $aula3->files()->create([
             'description'=>'Exercício 4'

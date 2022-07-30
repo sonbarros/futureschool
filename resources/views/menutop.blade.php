@@ -9,13 +9,13 @@
 
     <div class="hidden sm:block">
       <div class="flex items-center space-x-2 lg:space-x-4">
-        <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-50 bg-yellow-500 hover:bg-blue-700 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> HOME </a>
-        <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-50 bg-yellow-500 hover:bg-blue-700 focus-within:hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> TSO </a>
-        <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-50 bg-yellow-500 hover:bg-blue-700 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> JCL </a>
-        <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-50 bg-yellow-500 hover:bg-blue-700 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> COBOL </a>
-        <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-50 bg-yellow-500 hover:bg-blue-700 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> CICS </a>
-        <a href="#" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-50 bg-yellow-500 hover:bg-blue-700 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> DB2 </a>
-        <a href="#" class="whitespace-nowrap ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-50 bg-yellow-500 hover:bg-blue-700 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> QUEM SOMOS </a>
+        <a href="{{route('site.index')}}" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-50 bg-yellow-500 hover:bg-blue-600 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> HOME </a>
+        <a href="{{route('curso.show', 'tso')}}" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-50 bg-yellow-500 hover:bg-blue-600 focus-within:hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> TSO </a>
+        <a href="{{route('curso.show', 'jcl')}}" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-50 bg-yellow-500 hover:bg-blue-600 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> JCL </a>
+        <a href="{{route('curso.show', 'cobol')}}" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-50 bg-yellow-500 hover:bg-blue-600 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> COBOL </a>
+        <a href="{{route('curso.show', 'cics')}}" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-50 bg-yellow-500 hover:bg-blue-600 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> CICS </a>
+        <a href="{{route('curso.show', 'db2')}}" class="ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-50 bg-yellow-500 hover:bg-blue-600 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> DB2 </a>
+        <a href="http://osasconamao.com.br/CURSOS/_imagens/vitrine2.ppsx" download class="whitespace-nowrap ml-4 px-3 py-2 rounded-md text-sm leading-5 font-medium text-gray-50 bg-yellow-500 hover:bg-blue-600 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 "> QUEM SOMOS </a>
       </div>
     </div>
     

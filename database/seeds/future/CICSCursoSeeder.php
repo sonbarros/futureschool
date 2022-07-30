@@ -106,18 +106,11 @@ class CICSCursoSeeder extends Seeder
         $file11_aula1->save();
 
         $file12_aula1 = $aula1->files()->create([
-            'description'=>'Pgm Rela3.'
+            'description'=>'Repro Vsam'
         ]); // anexando arquivo
 
         $file12_aula1->icon()->associate(Icon::find(2));
         $file12_aula1->save();
-
-        $file13_aula1 = $aula1->files()->create([
-            'description'=>'Repro Vsam'
-        ]); // anexando arquivo
-
-        $file13_aula1->icon()->associate(Icon::find(2));
-        $file13_aula1->save();
 
 
         $modulo1 = $curso->modulos()->create(); // Cria modulo
