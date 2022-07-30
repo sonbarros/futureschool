@@ -19,16 +19,16 @@
           <p>1. Baixe o programa e os arquivos que possuem as instruções de como acessar o Mainframe.</p>
           <ul class="w-full sm:w-80 rounded-md py-2 space-y-2 sm:space-y-1.5">
             <li class="flex justify-between cursor-pointer focus:outline-none transition ease-in-out duration-150 hover:border-gray-100 hover:bg-gray-100">
-              <button class="inline-flex h-12 items-center justify-between border-0 w-full focus:outline-none transition ease-in-out duration-150 text-white bg-white hover:bg-gray-50 border-white hover:border-gray-50 text-xs px-2.5  rounded">
+              <a href="{{asset('storage/material/tn3270.rar')}}" download class="inline-flex h-12 items-center justify-between border-0 w-full focus:outline-none transition ease-in-out duration-150 text-white bg-white hover:bg-gray-50 border-white hover:border-gray-50 text-xs px-2.5  rounded">
                 <span class="font-light text-brand">TN<span class="text-blue-800">3270</span></span>
                 <img class="w-8" src="{{asset("_img/tn3270-removebg-preview.png")}}" alt="">
-              </button>
+              </a>
             </li>
             <li class="flex justify-between cursor-pointer focus:outline-none transition ease-in-out duration-150 hover:border-gray-100 hover:bg-gray-100">
-              <button class="inline-flex h-12 items-center justify-between border-0 w-full focus:outline-none transition ease-in-out duration-150 text-white bg-white hover:bg-gray-50 border-white hover:border-gray-50 text-xs px-2.5  rounded">
+              <a href="{{asset('storage/material/tn3270.doc')}}" download class="inline-flex h-12 items-center justify-between border-0 w-full focus:outline-none transition ease-in-out duration-150 text-white bg-white hover:bg-gray-50 border-white hover:border-gray-50 text-xs px-2.5  rounded">
                 <span class="font-light text-brand">Instrução</span>
                 <img class="w-8" src="{{asset("_img/word.webp")}}" alt="">
-              </button>
+              </a>
             </li>
             <li class="flex justify-between cursor-pointer focus:outline-none transition ease-in-out duration-150 hover:border-gray-100 hover:bg-gray-100">
               <button class="inline-flex h-12 items-center justify-between border-0 w-full focus:outline-none transition ease-in-out duration-150 text-white bg-white hover:bg-gray-50 border-white hover:border-gray-50 text-xs px-2.5  rounded">

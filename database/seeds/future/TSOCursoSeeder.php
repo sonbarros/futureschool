@@ -188,6 +188,7 @@ class TSOCursoSeeder extends Seeder
             $file->save();
         }
 
-        // 
+        // Anexar os endereços do material escolar
+        
     }
 }
