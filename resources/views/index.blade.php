@@ -68,7 +68,7 @@
           </a><!-- end block -->
 
           <!-- block-->
-          <a href="/course/jcl" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px">
+          <a href="{{route('curso.show', 'jcl')}}" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px">
             <div class="m-0">
               <img class="object-cover h-52 sm:h-48 w-full -mt-1.5" src="{{asset('storage/_img/jcl.png')}}" alt="">
             </div>
@@ -114,7 +114,7 @@
           </a><!-- end block -->
 
           <!-- block -->
-          <a href="/course/cobol" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px">   
+          <a href="{{route('curso.show', 'cobol')}}" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px">   
             <div class="m-0">
               <img class="object-cover h-52 sm:h-48 w-full -mt-1.5" src="{{ asset('storage/_img/cobol.png')}}" alt="">
             </div>
@@ -160,7 +160,7 @@
           </a><!-- end block -->
 
           <!-- block -->
-          <a href="/course/cics" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px">    
+          <a href="{{route('curso.show', 'cics')}}" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px">    
             <div class="m-0">
               <img class="object-cover h-52 sm:h-48 w-full -mt-1.5" src="{{asset('storage/_img/cics.png')}}" alt="">
             </div>
@@ -205,7 +205,7 @@
           </a><!-- end block -->
 
           <!-- block -->
-          <a href="/course/db2" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px">
+          <a href="{{route('curso.show', 'db2')}}" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px">
             <div class="m-0">
               <img class="object-cover h-52 sm:h-48 w-full -mt-1.5" src="{{asset('storage/_img/db2.png')}}" alt="">
             </div>
@@ -251,7 +251,7 @@
           </a><!-- end block -->
 
           <!-- block -->
-          <a href="/course/conectar-mainframe" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px"> 
+          <a href="{{route('curso.show', 'mainframe')}}" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px"> 
             <div class="m-0">
               <img class="object-cover h-52 sm:h-48 w-full sm:-mt-2.5" src="{{asset('storage/_img/zos.png')}}" alt="">
             </div>
