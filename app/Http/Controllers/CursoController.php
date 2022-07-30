@@ -17,6 +17,8 @@ class CursoController extends Controller
     
     public function show($name)
     {   
+        //$curso = Curso::with('modulos.aulas.files')->where('name', 'TSO')->first();
+        //return $curso['modulos'][0]['aulas'][0]['files'];
         try {
             $curso = Curso::where('name', $name)->firstOrFail();
             $modulos = Modulo::with('aulas.files.icon')->where('curso_id', $curso->id)->get();

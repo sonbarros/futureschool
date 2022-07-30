@@ -17,20 +17,20 @@ class TSOCursoSeeder extends Seeder
     {   
         $wordIcon = Icon::create([
             'name'=>'word',
-            'url'=>'_img/word.webp'
+            'url'=>'storage/_img/icon-word.webp'
         ]);
         $mediaIcon = Icon::create([
             'name'=>'media-player',
-            'url'=>'_img/media-player.webp'
+            'url'=>'storage/_img/ico-mediaplayer.webp'
         ]);
         $pdfIcon = Icon::create([
             'name'=>'pdf',
-            'url'=>'_img/icon-pdf.png'
+            'url'=>'storage/_img/icon-pdf.png'
         ]);
 
         $tn3270 = Icon::create([
             'name'=>'tn3270',
-            'url'=>'_img/tn3270-removebg-preview.png'
+            'url'=>'storage/_img/ico-tn3270.png'
         ]);
         
         $cursoTSO = Curso::create([

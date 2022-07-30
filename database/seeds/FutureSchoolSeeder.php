@@ -7,6 +7,7 @@ use App\database\seeds\future\CobolCursoSeeder;
 use App\database\seeds\future\CICSCursoSeeder;
 use App\database\seeds\future\DB2CursoSeeder;
 use App\database\seeds\future\MainframeCursoSeeder;
+use App\database\seeds\future\ApplyUrlInFile;
 
 
 class FutureSchoolSeeder extends Seeder
@@ -25,7 +26,8 @@ class FutureSchoolSeeder extends Seeder
             CobolCursoSeeder::class,
             CICSCursoSeeder::class,
             DB2CursoSeeder::class,
-            MainframeCursoSeeder::class
+            MainframeCursoSeeder::class,
+            //ApplyUrlInFile::class
         ]);
 
     }
