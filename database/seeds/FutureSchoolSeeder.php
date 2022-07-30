@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use App\database\seeds\future\TSOCursoSeeder;
+use App\database\seeds\future\JCLCursoSeeder;
 
 class FutureSchoolSeeder extends Seeder
 {
@@ -14,7 +15,8 @@ class FutureSchoolSeeder extends Seeder
     {
         
         $this->call([
-            TSOCursoSeeder::class
+            TSOCursoSeeder::class,
+            JCLCursoSeeder::class
         ]);
 
     }
