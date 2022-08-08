@@ -310,11 +310,11 @@
           <a class="mx-auto mt-2 mb-4 sm:mt-0 sm:mb-0" href="https://www.facebook.com/Gutinhospersonalizados/?ref=bookmarks"> 
             <img id="face" class="w-24" src="{{asset('storage/_img/face2.jpg')}}">
           </a>
-          <a href="https://api.whatsapp.com/send?phone=551183432503&text=Ol%C3%A1%20vim%20pelo%20site!" class="flex flex-col sm:flex-row justify-center items-center mx-auto" href="https://www.facebook.com/Gutinhospersonalizados/?ref=bookmarks">
+          <a href="https://api.whatsapp.com/send?phone=551183422503&text=Ol%C3%A1%20vim%20pelo%20site!" class="flex flex-col sm:flex-row justify-center items-center mx-auto" href="https://www.facebook.com/Gutinhospersonalizados/?ref=bookmarks">
             <div class="flex items-center bg-yellow-500 py-2 rounded-md px-2 text-gray-50 hover:bg-blue-600 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 ">
               <img class="w-12" src="{{asset('storage/_img/whatsapp--v1.png')}}" alt="">
               <span class=" font-semibold ">WhatsApp</span>
-              <span class=" font-light ">(11) 98343 2503</span>
+              <span class=" font-light ">(11) 98342 2503</span>
             </div>
           </a>
 
