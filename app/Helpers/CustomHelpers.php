@@ -22,3 +22,14 @@ function hourMinuteCustom($hour)
         return (int) hoursToMinutes($hourMinute) . 'min'; // "50min"
     }
 }
+
+function getNameInitials($name)
+{
+    if(str_word_count($name) == 1) {
+        return $name[0];
+    } else {
+        $firstCharacter = $name[0];
+        $firstCharacter .= strrchr($name,' ')[1]; // strrchr() pega ultima palavra da string [1]
+        return $firstCharacter;
+    }
+}

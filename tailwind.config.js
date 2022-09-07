@@ -19,6 +19,9 @@ module.exports = {
       minWidth: {
         '70porcento': '70%'
       },
+      fontFamily: {
+        'nunito': ['Nunito', 'sans-serif']
+      }
     },
   },
   variants: {

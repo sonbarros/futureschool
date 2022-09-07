@@ -6,12 +6,16 @@ use Illuminate\Http\Request;
 use App\Models\Curso;
 use App\Models\Modulo;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
-use Exception;
 
 class CursoController extends Controller
 {
     public function index()
     {
+        if(auth()->check()) {
+            $user = auth()->user();
+            $user->nameInitials = getNameInitials($user->name);
+            return view('index')->with('user', $user);
+        }
         return view('index');
     }
     
@@ -22,6 +26,16 @@ class CursoController extends Controller
         try {
             $curso = Curso::where('name', $name)->firstOrFail();
             $modulos = Modulo::with('aulas.files.icon')->where('curso_id', $curso->id)->get();
+
+            if(auth()->check()) {
+                $user = auth()->user();
+                $user->nameInitials = getNameInitials($user->name);
+                return view('course.' . $name)
+                    ->with('modulos', $modulos)
+                    ->with('curso', $curso)
+                    ->with('user', $user);
+            }
+
             return view('course.' . $name)
                 ->with('modulos', $modulos)
                 ->with('curso', $curso);

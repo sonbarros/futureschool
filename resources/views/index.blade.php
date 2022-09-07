@@ -8,10 +8,13 @@
     -webkit-line-clamp: 3; /* Definimos quantas linhas queremos */
     display: -webkit-box;
     overflow: hidden;
-    width: 270px; /* Definimos o tamanho máximo do nosso container*/
+    width: 270px; /* Definimos o tamanho máximo do container*/
   }
 </style>  
 @endpush
+<div id="msgerror" class="rounded-md p-4 text-sm font-medium bg-yellow-50 text-yellow-800">
+  <div class="flex"><!---->
+    <div><span class="whitespace-pre-line">Você quer ajudar manter este site? PIX <span class="inline-block">(11-98342.2503)</span> Favorecido: Jorge Gilberto.</span></div><div class="ml-auto pl-3"><div class="-mx-1.5 -my-1.5"><button class="inline-flex rounded-md p-1.5 focus:outline-none focus:ring-2 focus:ring-offset-2 bg-yellow-50 text-yellow-500 hover:bg-yellow-100 focus:ring-offset-yellow-50 focus:ring-yellow-600"><span class="sr-only">Dismiss</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true" class="h-5 w-5"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg></button></div></div></div></div>
 @include('menutop' ) <!-- nav -->
 <div class="p-4 lg:p-8">
   <div>
@@ -311,10 +314,10 @@
             <img id="face" class="w-24" src="{{asset('storage/_img/face2.jpg')}}">
           </a>
           <a href="https://api.whatsapp.com/send?phone=551183422503&text=Ol%C3%A1%20vim%20pelo%20site!" class="flex flex-col sm:flex-row justify-center items-center mx-auto" href="https://www.facebook.com/Gutinhospersonalizados/?ref=bookmarks">
-            <div class="flex items-center bg-yellow-500 py-2 rounded-md px-2 text-gray-50 hover:bg-blue-600 hover:text-white transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 ">
+            <div class="flex items-center bg-gray-100 py-2 rounded-md px-2 text-gray-500 hover:bg-gray-100 hover:text-yellow-500 transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 h-14">
               <img class="w-12" src="{{asset('storage/_img/whatsapp--v1.png')}}" alt="">
-              <span class=" font-semibold ">WhatsApp</span>
-              <span class=" font-light ">(11) 98342 2503</span>
+              <span class=" font-semibold ">WhatsApp&nbsp;</span>
+              <span class=" font-medium hover:font-bold ">(11) 98342 2503</span>
             </div>
           </a>
 
@@ -323,11 +326,20 @@
         </div>
       </div>
       <hr class="mt-6 mb-3 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-      <span class="text-gray-600 flex items-center justify-center sm:justify-end text-sm sm:text-center dark:text-gray-400 text-center font-medium">
+      <span class="font-nunito text-gray-600 flex items-center justify-center sm:justify-end text-sm sm:text-center dark:text-gray-400 text-center font-medium">
         © 2022 
-        <span>&nbsp; By Jorge Gilberto™</span>
+        <span class="font-nunito">&nbsp; By Jorge Gilberto™</span>
       </span>
     </footer>
   </div>
+
+  <script>
+    let msgerror = document.getElementById('msgerror')
+    msgerror.addEventListener("click", function(){
+        msgerror.classList.add('hidden')
+    })
+
+    //window.scrollTo( 0, 0 );
+  </script>
 
 @endsection

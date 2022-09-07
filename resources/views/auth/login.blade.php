@@ -6,14 +6,23 @@
     <title>Área administrativa</title>
 
     
-    <link rel="stylesheet" href="{{asset('css/admin/app-materialize.css')}}">
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
     {{-- 
     <link rel="stylesheet" href="{{ asset('css/form-login.css') }}">
     --}}
     
 </head>
 <body class="text-gray-800 bg-gray-50">
-    <div class="flex justify-center px-6 py-20 mt-14">
+
+  <header class="h-14 flex items-center justify-center bg-white border-b border-gray-200">
+    <a data-v-ab71cf58="" href="/" class="inline-flex items-center space-x-3 nuxt-link-active">
+      <img src="{{asset('storage/_img/future-logo.png')}}" class="logo object-fill w-44 md:w-48">
+      <span class="hidden items-center font-medium rounded-full bg-green-100 text-green-800 px-2.5 py-0.5 text-xs">
+      BETA
+      </span>
+    </a>
+  </header>
+    <div class="flex justify-center py-20">
         <div class="px-2 w-full max-w-lg">
             <div>
                 <div class="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
@@ -33,7 +42,7 @@
                             
                         @endif
                     </div>
-                    <form  method="POST" action="{{ route('admin.formLogin') }}" class="grid gap-4">
+                    <form  method="POST" action="{{ route('login') }}" class="grid gap-4">
                         @csrf
                         <span>
                             <div>
@@ -47,14 +56,14 @@
                                 <input id="password" type="password" class="block w-full transition ease-in-out duration-150 text-gray-800 bg-white placeholder-gray-300 border border-gray-300 focus:border-blue-300 focus:ring focus:ring-opacity-50 focus:ring-blue-200 shadow-sm  text-sm px-4 py-2 rounded outline-none" name="password" required autocomplete="current-password"><!---->
                             </div>
                         </span> 
-                        <div>
+                        <div class="hidden">
                             <a href="/forgot-password" class="text-xs text-gray-600 hover:text-blue-600 font-normal">
                             Esqueceu sua senha?
                         </a>
                         </div> 
 
 
-                        <button type="submit" class="inline-block w-full px-6 py-3 mt-6 mb-2 font-bold text-center text-white uppercase align-middle transition-all bg-transparent border-0 rounded-lg cursor-pointer active:opacity-85 hover:scale-102 hover:shadow-soft-xs leading-pro text-size-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-blue-900 bg-x-25 bg-gradient-dark-gray hover:border-slate-700 hover:bg-slate-700 hover:text-white">Criar Conta</button>
+                        <button type="submit" class="inline-block w-full px-6 py-3 mt-6 mb-2 font-bold text-center text-white uppercase align-middle transition-all bg-transparent border-0 rounded-sm cursor-pointer active:opacity-85 hover:scale-102 hover:shadow-soft-xs leading-pro text-size-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-blue-600 bg-x-25 bg-gradient-dark-gray hover:border-slate-700 hover:bg-slate-700 hover:text-white"> Entrar </button>
                         {{-- 
                         <button type="submit" class="inline-flex items-center justify-center border focus:outline-none transition ease-in-out duration-150 w-full justify-center text-white bg-blue-500 hover:bg-blue-600 border-blue-500 hover:border-blue-600 text-base px-4 py-2 rounded">
                             Entrar
@@ -65,7 +74,7 @@
                 <div class="w-full mt-6 text-center">
                     <p class="text-sm text-gray-500">
                         Não tem uma conta?
-                        <a href="{{route('admin.register.form')}}" class="text-blue-500 underline font-medium hover:no-underline">
+                        <a href="{{route('register')}}" class="text-blue-500 underline font-medium hover:no-underline">
                         Criar conta
                         </a>
                     </p>
@@ -78,6 +87,18 @@
         msgerror.addEventListener("click", function(){
             msgerror.classList.add('hidden')
         })
+
+        setTimeout(() => {
+
+            window.scrollTo({
+      top: 0, 
+      behavior: 'auto'
+      /* you can also use 'auto' behaviour
+         in place of 'smooth' */
+    });
+            
+        }, 1000);
+       
     </script>
   </body>
 </html>
