@@ -11,7 +11,7 @@
 
   <header class="h-14 flex items-center justify-center bg-white border-b border-gray-200">
     <a data-v-ab71cf58="" href="/" class="inline-flex items-center space-x-3 nuxt-link-active">
-      <img src="{{asset('storage/_img/future-logo.png')}}" class="logo object-fill w-44 md:w-48">
+      <img src="https://s3.amazonaws.com/futureschool.com/_img/future-logo.png" class="logo object-fill w-44 md:w-48">
       <span class="hidden items-center font-medium rounded-full bg-green-100 text-green-800 px-2.5 py-0.5 text-xs">
       BETA
       </span>

@@ -21,37 +21,37 @@
             <li class="flex justify-between cursor-pointer focus:outline-none transition ease-in-out duration-150 hover:border-gray-100 hover:bg-gray-100">
               <a href="https://s3.amazonaws.com/futureschool.com/storage/_arquivos/tn3270.rar" download class="inline-flex h-12 items-center justify-between border-0 w-full focus:outline-none transition ease-in-out duration-150 text-white bg-white hover:bg-gray-50 border-white hover:border-gray-50 text-xs px-2.5  rounded">
                 <span class="font-light text-brand">TN<span class="text-blue-800">3270</span></span>
-                <img class="w-8" src="{{asset("storage/_img/ico-tn3270.png")}}" alt="">
+                <img class="w-8" src="https://s3.amazonaws.com/futureschool.com/storage/_img/ico-tn3270.png" alt="">
               </a>
             </li>
             <li class="flex justify-between cursor-pointer focus:outline-none transition ease-in-out duration-150 hover:border-gray-100 hover:bg-gray-100">
               <a href="https://s3.amazonaws.com/futureschool.com/storage/_arquivos/tn3270.doc" download class="inline-flex h-12 items-center justify-between border-0 w-full focus:outline-none transition ease-in-out duration-150 text-white bg-white hover:bg-gray-50 border-white hover:border-gray-50 text-xs px-2.5  rounded">
                 <span class="font-light text-brand">Instrução</span>
-                <img class="w-8" src="{{asset("storage/_img/ico-word.webp")}}" alt="">
+                <img class="w-8" src="https://s3.amazonaws.com/futureschool.com/storage/_img/ico-word.webp" alt="">
               </a>
             </li>
             <li class="flex justify-between cursor-pointer focus:outline-none transition ease-in-out duration-150 hover:border-gray-100 hover:bg-gray-100">
               <a href="https://s3.amazonaws.com/futureschool.com/storage/_arquivos/Conexao.mkv" download class="inline-flex h-12 items-center justify-between border-0 w-full focus:outline-none transition ease-in-out duration-150 text-white bg-white hover:bg-gray-50 border-white hover:border-gray-50 text-xs px-2.5  rounded">
                 <span class="font-light text-brand">Instrução</span>
-                <img class="w-12 -mr-2" src="{{asset("storage/_img/ico-mediaplayer.webp")}}" alt="">
+                <img class="w-12 -mr-2" src="https://s3.amazonaws.com/futureschool.com/storage/_img/ico-mediaplayer.webp" alt="">
               </a>
             </li>
             <li class="flex justify-between cursor-pointer focus:outline-none transition ease-in-out duration-150 hover:border-gray-100 hover:bg-gray-100">
               <a href="https://s3.amazonaws.com/futureschool.com/storage/_arquivos/Abend_Geral.pdf" download class="inline-flex h-12 items-center justify-between border-0 w-full focus:outline-none transition ease-in-out duration-150 text-white bg-white hover:bg-gray-50 border-white hover:border-gray-50 text-xs px-2.5  rounded">
                 <span class="font-light text-brand">Abends</span>
-                <img class="w-8" src="{{asset("storage/_img/ico-pdf.png")}}" alt="">
+                <img class="w-8" src="https://s3.amazonaws.com/futureschool.com/storage/_img/ico-pdf.png" alt="">
               </a>
             </li>
             <li class="flex justify-between cursor-pointer focus:outline-none transition ease-in-out duration-150 hover:border-gray-100 hover:bg-gray-100">
               <a href="https://s3.amazonaws.com/futureschool.com/storage/_arquivos/Erros.mkv" download class="inline-flex h-12 items-center justify-between border-0 w-full focus:outline-none transition ease-in-out duration-150 text-white bg-white hover:bg-gray-50 border-white hover:border-gray-50 text-xs px-2.5  rounded">
                 <span class="font-light text-brand">Abends</span>
-                <img class="w-12 -mr-2" src="{{asset("storage/_img/ico-mediaplayer.webp")}}" alt="">
+                <img class="w-12 -mr-2" src="https://s3.amazonaws.com/futureschool.com/storage/_img/ico-mediaplayer.webp" alt="">
               </a>
             </li>
             <li class="flex justify-between cursor-pointer focus:outline-none transition ease-in-out duration-150 hover:border-gray-100 hover:bg-gray-100">
               <a href="https://s3.amazonaws.com/futureschool.com/storage/_arquivos/Compila.mkv" download class="inline-flex h-12 items-center justify-between border-0 w-full focus:outline-none transition ease-in-out duration-150 text-white bg-white hover:bg-gray-50 border-white hover:border-gray-50 text-xs px-2.5  rounded">
                 <span class="font-light text-brand">Compila</span>
-                <img class="w-12 -mr-2" src="{{asset("storage/_img/ico-mediaplayer.webp")}}" alt="">
+                <img class="w-12 -mr-2" src="https://s3.amazonaws.com/futureschool.com/storage/_img/ico-mediaplayer.webp" alt="">
               </a>
             </li>
           </ul>

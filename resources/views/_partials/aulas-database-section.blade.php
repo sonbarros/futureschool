@@ -36,7 +36,7 @@
                       </svg>
                       <img 
                       @if($file->icon->url == 'storage/_img/ico-mediaplayer.webp') class="w-10" @else  class="w-6 mr-2" @endif
-                      src="{{asset( $file->icon->url )}}" alt="">
+                      src="https://s3.amazonaws.com/futureschool.com/{{$file->icon->url}}" alt="">
                     </div>
                   </a>
                   <!-- link desenv -->
