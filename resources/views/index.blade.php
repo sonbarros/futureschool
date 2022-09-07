@@ -28,7 +28,7 @@
           <!-- block -->
           <a href="{{route('curso.show', ['name'=>'mainframe'])}}" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px"> 
             <div class="m-0">
-              <img class="object-cover h-52 sm:h-48 w-full sm:-mt-2.5" src="{{asset('storage/_img/zos.png')}}" alt="">
+              <img class="object-cover h-52 sm:h-48 w-full sm:-mt-2.5" src="https://s3.amazonaws.com/futureschool.com/_img/cics.png" alt="">
             </div>
             <div class="p-5 space-y-3">
               <div class="space-y-1">
@@ -77,7 +77,7 @@
           <!-- block -->
           <a href="{{route('curso.show', ['name'=>'tso'])}}" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px">
             <div class="m-0">
-              <img class="object-cover h-52 sm:h-48 w-full -mt-1.5" src="{{asset('storage/_img/tso.png')}}" alt="">
+              <img class="object-cover h-52 sm:h-48 w-full -mt-1.5" src="https://s3.amazonaws.com/futureschool.com/_img/tso.png" alt="">
             </div>
             <div class="p-5 space-y-3">
               <div class="space-y-1">
@@ -121,7 +121,7 @@
           <!-- block-->
           <a href="{{route('curso.show', ['name'=>'jcl'])}}" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px">
             <div class="m-0">
-              <img class="object-cover h-52 sm:h-48 w-full -mt-1.5" src="{{asset('storage/_img/jcl.png')}}" alt="">
+              <img class="object-cover h-52 sm:h-48 w-full -mt-1.5" src="https://s3.amazonaws.com/futureschool.com/_img/jcl.png" alt="">
             </div>
             <div class="p-5 space-y-3">
               <div class="space-y-1">
@@ -166,7 +166,7 @@
           <!-- block -->
           <a href="{{route('curso.show', ['name'=>'cobol'])}}" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px">   
             <div class="m-0">
-              <img class="object-cover h-52 sm:h-48 w-full -mt-1.5" src="{{ asset('storage/_img/cobol.png')}}" alt="">
+              <img class="object-cover h-52 sm:h-48 w-full -mt-1.5" src="https://s3.amazonaws.com/futureschool.com/_img/cobol.png" alt="">
             </div>
             <div class="p-5 space-y-3">
               <div class="space-y-1">
@@ -211,7 +211,7 @@
           <!-- block -->
           <a href="{{route('curso.show', ['name'=>'cics'])}}" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px">    
             <div class="m-0">
-              <img class="object-cover h-52 sm:h-48 w-full -mt-1.5" src="{{asset('storage/_img/cics.png')}}" alt="">
+              <img class="object-cover h-52 sm:h-48 w-full -mt-1.5" src="https://s3.amazonaws.com/futureschool.com/_img/cics.png" alt="">
             </div>
             <div class="p-5 space-y-3">
               <div class="space-y-1">
@@ -255,7 +255,7 @@
           <!-- block -->
           <a href="{{route('curso.show', ['name'=>'db2'])}}" class="flex flex-col bg-white rounded-md hover:shadow-xl border border-gray-300 overflow-hidden duration-300 ease-out transform hover:-translate-y-px">
             <div class="m-0">
-              <img class="object-cover h-52 sm:h-48 w-full -mt-1.5" src="{{asset('storage/_img/db2.png')}}" alt="">
+              <img class="object-cover h-52 sm:h-48 w-full -mt-1.5" src="https://s3.amazonaws.com/futureschool.com/_img/db2.png" alt="">
             </div>
             <div class="p-5 space-y-3">
               <div class="space-y-1">
@@ -307,15 +307,15 @@
     <footer class="p-4 bg-white rounded-lg shadow md:px-6 md:py-8 dark:bg-gray-800">
       <div class="sm:flex sm:items-center sm:justify-between">
         <a href="{{route('site.index')}}" target="_blank" class="flex items-center justify-center mb-4 sm:mb-0">
-          <img src="{{asset('storage/_img/future-logo.png')}}" class="logo object-fill w-44 md:w-48"> 
+          <img src="https://s3.amazonaws.com/futureschool.com/_img/future-logo.png" class="logo object-fill w-44 md:w-48"> 
         </a>
         <div class="flex flex-col sm:flex-row sm:space-x-4 sm:items-center">
           <a class="mx-auto mt-2 mb-4 sm:mt-0 sm:mb-0" href="https://www.facebook.com/Gutinhospersonalizados/?ref=bookmarks"> 
-            <img id="face" class="w-24" src="{{asset('storage/_img/face2.jpg')}}">
+            <img id="face" class="w-24" src="https://s3.amazonaws.com/futureschool.com/_img/face2.jpg">
           </a>
           <a href="https://api.whatsapp.com/send?phone=551183422503&text=Ol%C3%A1%20vim%20pelo%20site!" class="flex flex-col sm:flex-row justify-center items-center mx-auto" href="https://www.facebook.com/Gutinhospersonalizados/?ref=bookmarks">
             <div class="flex items-center bg-gray-100 py-2 rounded-md px-2 text-gray-500 hover:bg-gray-100 hover:text-yellow-500 transition duration-150 ease-in-out cursor-pointer focus:outline-none focus:text-white focus:bg-gray-700 h-14">
-              <img class="w-12" src="{{asset('storage/_img/whatsapp--v1.png')}}" alt="">
+              <img class="w-12" src="https://s3.amazonaws.com/futureschool.com/_img/whatsapp--v1.png" alt="">
               <span class=" font-semibold ">WhatsApp&nbsp;</span>
               <span class=" font-medium hover:font-bold ">(11) 98342 2503</span>
             </div>

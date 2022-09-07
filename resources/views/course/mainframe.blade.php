@@ -9,7 +9,7 @@
       <div class="flex-grow"  >
         <div class="h-full"><!----> 
           <div class="yt-container h-full flex items-center justify-center sm:items-start sm:justify-start">
-            <img class="object-cover -mt-1.5" src="{{asset('storage/_img/zos.png')}}" alt="">
+            <img class="object-cover -mt-1.5" src="https://s3.amazonaws.com/futureschool.com/_img/zos.png" alt="">
             {{-- <iframe src="https://www.youtube.com/embed/1eLaBow7Zbo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen"></iframe> --}}
           </div>
         </div>
