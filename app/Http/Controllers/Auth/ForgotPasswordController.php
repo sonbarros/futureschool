@@ -18,5 +18,6 @@ class ForgotPasswordController extends Controller
     |
     */
 
+    // sendResetLinkEmail()  verificando onde ocorre o retorno da mensagem com sucesso
     use SendsPasswordResetEmails;
 }
