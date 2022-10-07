@@ -56,8 +56,8 @@
                                 <input id="password" type="password" class="block w-full transition ease-in-out duration-150 text-gray-800 bg-white placeholder-gray-300 border border-gray-300 focus:border-blue-300 focus:ring focus:ring-opacity-50 focus:ring-blue-200 shadow-sm  text-sm px-4 py-2 rounded outline-none" name="password" required autocomplete="current-password"><!---->
                             </div>
                         </span> 
-                        <div class="hidden">
-                            <a href="/forgot-password" class="text-xs text-gray-600 hover:text-blue-600 font-normal">
+                        <div>
+                            <a href="{{route('password.request')}}" class="text-xs text-gray-600 hover:text-blue-600 font-normal">
                             Esqueceu sua senha?
                         </a>
                         </div> 
