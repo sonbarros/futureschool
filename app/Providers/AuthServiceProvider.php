@@ -45,7 +45,9 @@ class AuthServiceProvider extends ServiceProvider
             return (new MailMessage)
             ->subject(Lang::get('Notificação de reset de senha'))
             ->line(Lang::get('Você esta recebendo este email porque nós recebemos uma solicitação de reset de senha para sua conta.'))
-            ->action(Lang::get('Reset de senha'), $url)
+            //->action(Lang::get('Reset de senha'), 'http://futureschool.local/'.$url)
+            ->action(Lang::get('Reset de senha'), url(config('app.url').route('password.reset', $url, false)))
+            
             ->line(Lang::get('Este link de reset de senha irá expirar em :count minutos.', ['count' => config('auth.passwords.'.config('auth.defaults.passwords').'.expire')]))
             ->line(Lang::get('Se você não solicitou reset de senha, nenhuma ação é necessaria.'));
         });
