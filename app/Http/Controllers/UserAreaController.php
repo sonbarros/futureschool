@@ -7,12 +7,13 @@ use App\Models\User;
 
 class UserAreaController extends Controller
 {
-    public function perfilForm() {
-        
+    public function perfilForm(Request $request) {
+        //dd($request->is('*/perfil'));
+        //dd($request->url());
         if(auth()->check()) {
             $user = auth()->user();
             $user->nameInitials = getNameInitials($user->name);
-            return view('configs.perfil')->with('user', $user);
+            return view('configs.meu-perfil')->with('user', $user)->with('path', $request->url());
         }
         return view('index');
     }
@@ -25,5 +26,16 @@ class UserAreaController extends Controller
         $user->save();
         return redirect()->route('configs.perfil');
 
+    }
+
+    public function meusCursos(Request $request) {
+        //dd($request->is('*/perfil'));
+        //dd($request->url());
+        if(auth()->check()) {
+            $user = auth()->user();
+            $user->nameInitials = getNameInitials($user->name);
+            return view('configs.meus-cursos')->with('user', $user)->with('path', $request->url());
+        }
+        return view('index');
     }
 }

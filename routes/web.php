@@ -18,8 +18,9 @@ Route::group([
   'prefix' => 'configuracoes',
   //'namespace' => 'Admin'
 ], function () {
-  Route::get('perfil', [UserAreaController::class, 'perfilForm'])->name('configs.perfil');
-  Route::put('perfil', [UserAreaController::class, 'updateUser'])->name('configs.update.user');
+  Route::get('meu-perfil', [UserAreaController::class, 'perfilForm'])->name('configs.perfil');
+  Route::put('meu-perfil', [UserAreaController::class, 'updateUser'])->name('configs.update.user');
+  Route::get('meus-cursos', [UserAreaController::class, 'meusCursos'])->name('configs.meus-cursos');
 });
 
 
